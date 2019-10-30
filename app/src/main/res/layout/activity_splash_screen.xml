@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SplashScreenActivity"
+    android:background="?attr/backgroundcolour">
+
+
+    <TextView
+        android:textColor="?attr/textcolour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome!"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:paddingTop="150dp"
+        />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="401dp"
+        android:src="@drawable/sm_glasses"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
